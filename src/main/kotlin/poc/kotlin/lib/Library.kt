@@ -3,8 +3,18 @@
  */
 package poc.kotlin.lib
 
-class Library {
-    fun someLibraryMethod(): Boolean {
+import poc.kotlin.lib.models.Product
+
+public class Library {
+    public fun someLibraryMethod(): Boolean {
         return true
+    }
+
+    public fun testLibraryMethod(): String {
+        return "ทดสอบ"
+    }
+
+    public fun testLibraryModel(): Product {
+        return Product("x", 2.2f)
     }
 }

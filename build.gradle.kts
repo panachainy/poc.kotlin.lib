@@ -4,6 +4,8 @@
  * This generated file contains a sample Kotlin library project to get you started.
  */
 
+version = "0.0.2"
+
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
     id("org.jetbrains.kotlin.jvm") version "1.3.72"
@@ -13,9 +15,8 @@ plugins {
 }
 
 repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
